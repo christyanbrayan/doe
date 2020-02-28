@@ -33,6 +33,17 @@ O terminal deve retornar: "Servidor iniciado."
 
 Acesso via **localhost:3000**
 
+## Retornos
+Caso algum dos campos do formulário não sejam preenchidos, retornará na index:
+
+`Todos os campos são obrigatórios.`
+
+Em caso de algum erro no banco de dados, na sua conexão por exemplo, retornará na index:
+
+`Erro no banco de dados.`
+
+Havendo a conexão e preenchimento corretos, a página será recarregada e será adicionada em "últimos doadores" mais uma div com o nome e o tipo sanguíneo cadastrados.
+
 ## Interface
 
 Visualização inicial da página
