@@ -28,4 +28,5 @@ Acesso via **localhost:3000**
 ---
 ![print4](prints/print4.png "Visualização dos doadores cadastrados no banco de dados através do Postbird")
 
-##
+## Licença
+[MIT](https://github.com/christyanbrayan/doe/blob/master/LICENSE)
