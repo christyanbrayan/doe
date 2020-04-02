@@ -79,3 +79,7 @@ Visualização no postbird dos doadores cadastrados no banco de dados postgres
 
 ## Licença
 [MIT](https://github.com/christyanbrayan/doe/blob/master/LICENSE)
+
+---
+
+<h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/christyanbrayan" target="_blank">Christyan Brayan</a> </h4>
