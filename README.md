@@ -1,8 +1,15 @@
-# ![DOE logo](public/logo.png "logo DOE")
-## Um sistema de cadastro de doadores de sangue
-### Aplicação web criada a partir da 3ª MaratonaDev da Rocketseat, evento online ocorrido gratuitamente durante os dias 17 e 18 de Fevereiro de 2020
-### Instrutor: [Mayk Brito](https://github.com/maykbrito)
-![Rocketseat](rocketseat.png "rocketseat.com.br")
+<h1 align="center">
+    <img alt="DOE" src="public/logo.png">
+</h1>
+
+<h2 align="center"> Um sistema de cadastro de doadores de sangue </h2>
+
+<h3 align="center"> Aplicação web criada a partir da 3ª MaratonaDev da Rocketseat, evento online ocorrido gratuitamente durante os dias 17 e 18 de Fevereiro de 2020 </h3>
+
+<h3 align="center"> Instrutor: <a href="https://github.com/maykbrito">Mayk Brito</a> </h3>
+
+<p align="center"> <img src="rocketseat.png" alt="Rocketseat" width="212"> </p>
+
 ## Tecnologias
 ### Front-end
 - **HTML5**
@@ -21,17 +28,23 @@ Instaladas através do npm, o **express** (para o servidor web), o **nodemon** (
 ### Banco de dados Postgres
 Ligação através do cliente PostgreSQL para node.
 
-`npm install pg`
-
 Foi criado um banco chamado "**doe**", com uma tabela "**donors**" e com as linhas **id**, **name**, **email** e **blood**.
 
 ## Para rodar a aplicação
+
+Clone o projeto e dentro da pasta `doe/` execute:
+
+`npm install`
+
+Para instalar as dependências.
+
+Então, rode:
 
 `npm start`
 
 O terminal deve retornar: "Servidor iniciado."
 
-Acesso via **localhost:3000**
+Acesse via **localhost:3000**
 
 ## Retornos
 Caso algum dos campos do formulário não sejam preenchidos, retornará na index:
